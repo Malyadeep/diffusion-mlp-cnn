@@ -1,3 +1,5 @@
 __pycache__
 figures
+benchmarks/figures
 code_based_proposal.txt
+diffusion_mlp_cnn.egg-info/
