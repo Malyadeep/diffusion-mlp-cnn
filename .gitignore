@@ -1,5 +1,10 @@
 __pycache__
-figures
+# figures
 benchmarks/figures
 code_based_proposal.txt
 diffusion_mlp_cnn.egg-info/
+# dist
+# trained_models
+# training_performance
+# err.txt
+# log.txt
