@@ -3,7 +3,7 @@
    Answer: Team Partners - 05
 
 1. What non-human resources I used on the Internet:
-    a. LLM conversation links to verify solution: 
+    a. LLM conversation links: 
 	1. https://chatgpt.com/share/6aeb7121-dfe4-83e8-b84c-5a9663bc14fd
 	2. https://chatgpt.com/share/6aeb710c-3574-83ee-9079-951154ae824e
 	3. https://chatgpt.com/share/6aeb70dc-e0d8-83e8-87e4-a9c2bab5ffb7
