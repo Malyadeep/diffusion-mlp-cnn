@@ -1,5 +1,6 @@
 from types import SimpleNamespace
 import copy
+from argparse import ArgumentParser
 from diffusion_mlp_cnn.models.utils import Data
 from diffusion_mlp_cnn.training.train import train
 
@@ -118,6 +119,23 @@ def train_mlp_vary_dataset():
 
 
 if __name__ == "__main__":
-    train_baseline_mlp_cnn()
-    train_mlp_depth_width()
-    train_mlp_vary_dataset()
+    parser = ArgumentParser(
+        description="Training script for MLP and CNN for learning" +
+        " diffusion operator"
+    )
+    parser.add_argument(
+        "-opt",
+        "--option",
+        choices=["all", "baseline", "capacity", "dataset"]
+    )
+    args = parser.parse_args()
+    if args.option == "all":
+        train_baseline_mlp_cnn()
+        train_mlp_depth_width()
+        train_mlp_vary_dataset()
+    elif args.option == "baseline":
+        train_baseline_mlp_cnn()
+    elif args.option == "capacity":
+        train_mlp_depth_width()
+    elif args.option == "dataset":
+        train_mlp_vary_dataset()
