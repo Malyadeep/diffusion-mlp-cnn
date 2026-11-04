@@ -14,10 +14,14 @@
 		2. https://doi.org/10.1016/j.jcp.2025.114027
 
 2. Contributions:
-	Malyadeep - 
-	Prehas - 
+	Malyadeep - Brainstorming, Build the baseline models for MLP and CNN, automation, slides, report
+	Prehas - Brainstorming, Parameter sweeps, testing on unseen data, slides, report
 
 3. I pledge on my honour that I have not given or received any unauthorized assistance on this assignment or any previous task.
 
 Signed by: Malyadeep Bhattacharya (22D0136), Prehas Madke (23D0125)
 
+4. For canned demo:
+	a. Install prerequisites
+	b. run, "pip install -e ." to install the diffusion_mlp_cnn
+	c. execute "benchmarks/run.sh"
